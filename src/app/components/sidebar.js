@@ -13,8 +13,8 @@ function Sidebar() {
 
           <p><a href="#">Dashboard</a></p>
           <p><a href="#">Wallet</a></p>
-          <p><a href="#">Services</a></p>
-          <p><a href="#">Payments</a></p>
+          <p><a href="#">Servizi</a></p>
+          <p><a href="#">Pagamenti</a></p>
         </div>
         </div>
         <div className="sidebar-menu-bottom">
