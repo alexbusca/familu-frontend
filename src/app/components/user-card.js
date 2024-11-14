@@ -1,20 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const UserCard = ({ user }) => {
+function UserCard() {
     return (
         <div className="user-card">
-            <h2>{user.name}</h2>
-            <p>{user.email}</p>
+            <h2 className="text-black">name</h2>
+            <p className="text-black">34%</p>
         </div>
     );
-};
-
-UserCard.propTypes = {
-    user: PropTypes.shape({
-        name: PropTypes.string.isRequired,
-        email: PropTypes.string.isRequired,
-    }).isRequired,
-};
-
+}
 export default UserCard;

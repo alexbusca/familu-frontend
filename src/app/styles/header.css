@@ -4,7 +4,6 @@
 @tailwind variants;
 
 .header-container{
-    margin-left: 250px;
     margin-top: 25px;
 }
 
@@ -16,4 +15,5 @@
 }
 .search-bar{
     padding-left: 10px;
+    color: #181818 ;
 }

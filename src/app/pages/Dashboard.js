@@ -1,14 +1,17 @@
 import React from 'react';
+import '../styles/dashboard.css';
 import Sidebar from '../components/sidebar';
 import MainHeader from '../components/main-header';
+import Matching from '../sections/Matching';
 
-const IndexPage = () => {
+const Dashboard = () => {
     return (
-        <div>
+        <div className='main-dashboard'>
             <Sidebar/>
             <MainHeader/>
+            <Matching/>
         </div>
     );
 };
 
-export default IndexPage;
+export default Dashboard;

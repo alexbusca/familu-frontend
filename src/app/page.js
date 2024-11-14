@@ -1,10 +1,10 @@
 import React from "react";
-import IndexPage from "./pages/index";
+import Dashboard from "./pages/Dashboard";
 
 export default function Home() {
   return (
     <div className="main">
-      <IndexPage/>
+      <Dashboard/>
     </div>
   );
 }
