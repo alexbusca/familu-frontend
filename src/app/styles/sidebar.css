@@ -39,18 +39,18 @@
   flex-direction: column;
   gap: 40px;
 }
-p {
+.menu-items p {
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;
   transition: 0.5s;
 }
-p:hover {
+.menu-items p:hover {
   background-color: #1d3c4c;
   transition: 0.4s;
 }
 
-a {
+.menu-items p a {
   display: block;
   margin-left: 25px;
   width: 100%;
@@ -61,15 +61,15 @@ a {
   font-weight: 500;
   align-items: center;
 }
-p:hover {
-  background-color: #1d3c4c;
-  transition: 0.5s;
-}
 
 .sidebar-menu-bottom {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+
 }
 
 .main-logo {

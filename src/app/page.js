@@ -1,13 +1,10 @@
 import React from "react";
-import Sidebar from "./components/sidebar";
-import MainDashboard from "./components/main-dashboard";
-import "./styles/sidebar.css";
+import IndexPage from "./pages/index";
 
 export default function Home() {
   return (
     <div className="main">
-      <Sidebar />
-      <MainDashboard/>
+      <IndexPage/>
     </div>
   );
 }
