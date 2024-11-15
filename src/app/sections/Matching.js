@@ -1,12 +1,12 @@
 import React from 'react';
 import UserCard from '../components/user-card';
 
-const Matching = () => {
-    return (
-        <section>
-            <UserCard/>
-        </section>
-    );
+function Matching(){
+  return (
+    <div className='Matching'>
+      <UserCard />
+    </div>
+  );
 };
 
 export default Matching;
