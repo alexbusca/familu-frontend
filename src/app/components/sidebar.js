@@ -17,7 +17,7 @@ function Sidebar() {
           <p><a href="#">Pagamenti</a></p>
         </div>
         </div>
-        <div className="sidebar-menu-bottom">
+        <div className="sidebar-menu-bottom text-white">
           <a href="#">Impostazioni</a>
           <a href="#">Aiuto</a>
         </div>
