@@ -15,6 +15,7 @@ function Sidebar() {
           <p><a href="#">Wallet</a></p>
           <p><a href="#">Servizi</a></p>
           <p><a href="#">Pagamenti</a></p>
+          <p><a href="#">Chat</a></p>
         </div>
         </div>
         <div className="sidebar-menu-bottom text-white">
